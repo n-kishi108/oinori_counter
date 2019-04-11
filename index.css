@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+main {
+    width: 500px;
+    height: 600px;
+    padding: 30px 50px;
+    margin: 100px auto;
+    background: #fff;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1#title {
+    display: block;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+h2#my-cnt {
+    display: block;
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(77, 135, 159);
+    font-size: 80px;
+}
+
+button#add {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    background: rgb(77, 135, 159);
+    border: solid 2px rgb(77, 135, 159);
+    color: #fff;
+    margin: 25px auto;
+    /* transition: .2s; */
+    font-size: 20px;
+}
+
+.transition02s {
+    transition: .2s;
+}
+
+button#add:hover {
+    background: #f5f5f5;
+    color: rgb(77, 135, 159);
+}
